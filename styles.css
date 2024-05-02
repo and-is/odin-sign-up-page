@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.title{
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    font-family: Norse, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40%;
+    top: 30%;
+    padding: 10px;
+}
+.odin{
+    height: 4em;
+    width: auto;
+    display: block;
+}
+.logo-text{
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 10px
+}
+.credit{
+    text-align: center;
+    opacity: 70%;
+    color: white;
+    position: absolute;
+    width: 40%;
+    bottom: 10px;
+    font-family: sans-serif;
+}
+.form-space{
+    width: 60%;
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-space{
+    width: 40%;
+    height: 100vh;
+}
+.main-img{
+    all: revert;
+    width: 100%;
+    height: 100%;
+}
+.intro{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.first{
+    margin-bottom: 20px;
+}
+.second{
+    margin-bottom: 50px;
+}
+.third{
+    margin-bottom: 10px;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.kid{
+    min-width: 50%;
+    margin: 10px 0;
+}
+label{
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+}
+.form > *{
+    padding: 0 10%;
+}
+.btn{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(4, 81, 112);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.already{
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.login{
+    text-decoration: none;
+    color: rgb(4, 81, 112);
+}
+input:valid{
+    border: 1px rgb(4, 81, 112) solid;
+}
+input:invalid{
+    border: 1px red solid;
+}
+
+input:active{
+    border: 2px grey solid;
+}
+input{
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.wrong{
+    border: 2px red solid;
+}
+.warning{
+    color: red;
+    font-size: 12px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="img-space">
+      <img class="main-img" src="./photo.png" alt="A mountainous scenery" />
+      <div class="title">
+        <img class="odin" src="./odin-lined.png" alt="odin logo" class="logo" />
+        <p class="logo-text">ODIN</p>
+      </div>
+      <p class="credit">Photo by Tom Podmore on Unsplash</p>
+    </div>
+    <div class="form-space">
+      <div class="form">
+        <p class="intro first">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <p class="intro second">You <em>know</em> you want to.</p>
+        <p class="intro third">Let's do this!</p>
+        <form>
+          <div class="data">
+            <div class="kid fname">
+              <label for="f-name">FIRST NAME</label>
+              <input type="text" id="f-name" />
+            </div>
+            <div class="kid lname">
+              <label for="l-name">LAST NAME</label>
+              <input type="text" id="l-name" />
+            </div>
+            <div class="kid email">
+              <label for="emailid">EMAIL</label>
+              <input type="email" id="emailid" />
+            </div>
+            <div class="kid phN">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="number" id="phone" />
+            </div>
+            <div class="kid pswd">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" />
+              <p class="warning"></p>
+            </div>
+            <div class="kid pswd">
+              <label for="password2">CONFIRM PASSWORD</label>
+              <input type="password" id="password2" />
+            </div>
+          </div>
+          <button class="btn" type="submit">Create Account</button>
+        </form>
+        <p class="already">
+          Already have an account? <a href="#" class="login">Log in</a>
+        </p>
+      </div>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
