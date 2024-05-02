@@ -104,15 +104,14 @@ label{
     text-decoration: none;
     color: rgb(4, 81, 112);
 }
-input:valid{
-    border: 1px rgb(4, 81, 112) solid;
-}
+
 input:invalid{
     border: 1px red solid;
 }
 
-input:active{
-    border: 2px grey solid;
+input:focus{
+    border: 2px rgb(4, 81, 112) solid;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 input{
     margin-top: 5px;
